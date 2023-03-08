@@ -1,0 +1,58 @@
+.navigation {
+    background-image: url("../img/backgroundimg.png");
+    background-color: #fff;
+    background-repeat: no-repeat;
+    max-width: 1366px;
+    width: 100%;
+    height: 324px;
+    justify-content: space-around;
+    padding-top: 30px;
+    display: flex;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.navigationli ul {
+    display: flex;
+    
+}
+
+.navigationli ul li {
+    margin-left: 52px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s;
+
+}
+
+.navigationli ul li:hover,
+.navigationli ul li:focus {
+    color: #5863f8;
+    transition: all .3s;
+}
+
+.navigation-title-luka {
+    color: #fff;
+    font-size: 18px;
+    transition: all .3s;
+}
+
+.bigcontact-div:nth-child(1),
+.bigcontact-div:nth-child(2),
+.bigcontact-div:nth-child(3) {
+    color: #fff;
+}
+
+.mapiframe {
+    max-width: 1088px;
+    width: 100%;
+    height: 286px;  
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.map {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+}
