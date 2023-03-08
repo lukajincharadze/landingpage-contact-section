@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+/* HEADER */
 .navigation {
     background-image: url("../img/backgroundimg.png");
     background-color: #fff;
@@ -14,7 +16,6 @@
 
 .navigationli ul {
     display: flex;
-    
 }
 
 .navigationli ul li {
@@ -22,7 +23,7 @@
     color: #fff;
     cursor: pointer;
     transition: all .3s;
-
+    font-family: 'Poppins', sans-serif;
 }
 
 .navigationli ul li:hover,
@@ -35,14 +36,18 @@
     color: #fff;
     font-size: 18px;
     transition: all .3s;
+    font-family: 'Poppins', sans-serif;
 }
 
 .bigcontact-div:nth-child(1),
 .bigcontact-div:nth-child(2),
 .bigcontact-div:nth-child(3) {
     color: #fff;
+    font-family: 'Poppins', sans-serif;
 }
+/* END HEADER */
 
+/* SECTION */
 .mapiframe {
     max-width: 1088px;
     width: 100%;
@@ -51,8 +56,69 @@
     margin-bottom: 50px;
 }
 
-.map {
+.section {
     max-width: 1088px;
     width: 100%;
     margin: 0 auto;
 }
+
+.section-contact-title {
+    width: 465px;
+    line-height: 1.4;
+    margin-bottom: 54px;
+}
+
+.section-contact-title p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #5863f8;
+    font-weight: 600;
+}
+
+.section-contact-title h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 43px;
+}
+
+.forms-div {
+    display: flex;
+}
+
+.box-1 {
+    max-width: 720px;
+    width: 100%;
+    height: 288px;
+    margin-right: 16px;
+}
+
+.massage-area {
+    max-width: 720px;
+    width: 100%;
+    height: 288px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.box-2 {
+    max-width: 352px;
+    width: 100%;
+    height: 60px;
+}
+
+.form-input {
+    max-width: 352px;
+    width: 100%;
+    height: 60px;
+    padding-left: 20px;
+}
+
+.form-div {
+    margin-bottom: 16px;
+}
+
+.submit-button {
+    max-width: 352px;
+    width: 100%;
+    height: 60px;
+}
+/* END SECTION */
