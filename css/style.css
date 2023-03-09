@@ -63,7 +63,8 @@
 }
 
 .section-contact-title {
-    width: 465px;
+    max-width: 465px;
+    width: 100%;
     line-height: 1.4;
     margin-bottom: 54px;
 }
@@ -75,7 +76,8 @@
 }
 
 .section-contact-title2 {
-    width: 541px;
+    max-width: 541px;
+    width: 100%;
     line-height: 1.4;
     margin-bottom: 54px;
 }
@@ -275,7 +277,8 @@
 }
 
 .footer-li p {
-    width: 284px;
+    max-width: 284px;
+    width: 100%;
     opacity: 60%;
 }
 
@@ -292,6 +295,10 @@
     color: #fff;
     font-size: 24px;
     margin-bottom: 24px;
+}
+
+.footerSecbox {
+    margin-left: 150px;
 }
 
 .footerSecbox  ul li:last-child,
@@ -319,4 +326,41 @@
 .adresli::before {
     margin-right: 14px;
     content: url(../img/map-pin2.svg);
+}
+
+.footer-lastp {
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 14px;
+    opacity: 60%;
+}
+
+.footer-lasta {
+    font-family: sans-serif;
+    color: #5863f8;
+    font-size: 14px;
+    opacity: 100%;
+    font-weight: bold;
+    margin-left: 4px;
+}
+
+.footer-lastaa {
+    font-family: sans-serif;
+    color: #5863f8;
+    font-size: 14px;
+    opacity: 100%;
+    margin-left: 4px;
+}
+
+.lastp {
+    display: flex;
+}
+
+.lastp-div {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1075px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
