@@ -91,3 +91,37 @@
         margin-right: 10px;
     }
 }
+
+@media  (max-width: 450px) {
+    .massage-area {
+        height: 213px;
+    }   
+    .form-input, .send-button {
+        height: 41px;
+        font-size: 12px;
+    }
+    .massage-area {
+        font-size: 12px;
+    }
+
+    .forms-div {
+        margin-bottom: -25px;
+    }
+
+    .contact_title {
+        font-size: 25px;
+    }
+    
+    .section-contact-title h3,
+    .section-contact-title2 h3 {
+        font-size: 25px;
+    }
+
+    .section-contact-title p {
+        font-size: 10px;
+    }
+
+    .section-contact-title {
+        margin-bottom: 25px;
+    }
+}
