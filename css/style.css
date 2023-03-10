@@ -69,7 +69,7 @@
     width: 1px;
     height: 19px;
     color: #5863f8;
-    background-color: #000000;
+    background-color: #fff;
     margin-left: 16.5px;
     margin-right: 16.5px;
 }
@@ -137,7 +137,6 @@
     font-family: 'Poppins', sans-serif;
     font-size: 43px;
 }
-
 
 .forms-div {
     display: flex;
@@ -332,14 +331,6 @@
 .footerThirdbox, .footerFourthbox  {
     margin-left: -57px;
 }
-/* 
-.footerThirdbox {
-    margin-left: 130px;
-}
-
-.footerFourthbox {
-    margin-left: 100px;
-} */
 
 .footerSecbox  ul li:last-child,
 .footerThirdbox ul li:last-child {
@@ -353,7 +344,7 @@
     line-height: 2.5;
 }
 
-.mailli::before {
+/* .mailli::before {
     content: url(../img/mail2.svg);
     margin-right: 14px;
 }
@@ -366,7 +357,7 @@
 .adresli::before {
     margin-right: 14px;
     content: url(../img/map-pin2.svg);
-}
+} */
 
 .footer-lastp {
     font-family: sans-serif;
