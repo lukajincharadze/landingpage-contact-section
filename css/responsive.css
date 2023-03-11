@@ -128,6 +128,39 @@
     }
 }
 
+@media  (max-width: 630px) {
+    footer * {
+        text-align: center;
+    }
+    .footer {
+        flex-direction: column;
+        height: 940px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerSecbox, 
+    .footerThirdbox {
+        margin-left: 7px;
+    }
+
+    .footerFourthbox {
+        margin-left: 10px;
+    }
+
+    .logodiv {
+        margin-left: 23px;
+    }
+
+    .footerFirstbox,
+    .footerSecbox, 
+    .footerThirdbox,
+    .footerFourthbox {
+        margin-bottom: 50px;
+    }
+
+}
+
 @media  (max-width: 600px) {
     .form-input, .send-button {
         height: 41px;
@@ -198,5 +231,10 @@
     .mapiframe {
         padding-left: 1px;
         padding-right: 1px;
+    }
+
+    .section-contact-title,
+    .section-contact-title2 * {
+        text-align: center;
     }
 }
