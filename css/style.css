@@ -351,7 +351,7 @@
     line-height: 2.5;
 }
 
-/* .mailli::before {
+.mailli::before {
     content: url(../img/mail2.svg);
     margin-right: 14px;
 }
@@ -364,12 +364,14 @@
 .adresli::before {
     margin-right: 14px;
     content: url(../img/map-pin2.svg);
-} */
+}
 
 .footer-lastp {
     font-family: sans-serif;
     color: #fff;
     font-size: 14px;
+}
+span {
     opacity: 60%;
 }
 
@@ -377,7 +379,6 @@
     font-family: sans-serif;
     color: #5863f8;
     font-size: 14px;
-    opacity: 100%;
     font-weight: bold;
     margin-left: 4px;
 }
@@ -386,7 +387,6 @@
     font-family: sans-serif;
     color: #5863f8;
     font-size: 14px;
-    opacity: 100%;
     margin-left: 4px;
 }
 
