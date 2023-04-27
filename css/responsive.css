@@ -45,10 +45,12 @@
 
     .navigationli ul {
         flex-direction: column;
-        text-align: center;
+        text-align: end;
         margin-left: 0;
+        line-height: 1.9;
+        position: relative;
+        top: -110px;
     }
-
 
     .navigation {
         -webkit-box-pack: justify;
@@ -77,9 +79,7 @@
     .footerThirdbox, .footerFourthbox {
         margin-left: -3px;
     }
-}
 
-@media  (max-width: 850px) {
     .footer {
         max-width: 660px;
         width: 100%;
@@ -109,7 +109,17 @@
     }
 }
 
+
 @media  (max-width: 750px) {
+    .navigationli ul {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0;
+        line-height: 1.7;
+        position: relative;
+        top: 40px;
+        right: 50px;
+    }
     .contact_title {
         font-size: 35px;
     }
