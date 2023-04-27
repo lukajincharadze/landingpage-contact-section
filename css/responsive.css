@@ -25,15 +25,30 @@
 }
 
 @media  (max-width: 850px) {
-    .navigationli ul li {
+    .navigationli {
         display: none;
     }
 
-    .burger {
+    .toggle-button {
         display: block;
         font-size: 25px;
         color: #fff;
     }
+
+    .navigation {
+        flex-direction: column;
+    }
+
+    .navigationli.active {
+        display: block;
+    }
+
+    .navigationli ul {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0;
+    }
+
 
     .navigation {
         -webkit-box-pack: justify;
