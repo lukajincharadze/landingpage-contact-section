@@ -113,13 +113,13 @@
 @media  (max-width: 750px) {
     .navigationli ul {
         flex-direction: column;
-        text-align: center;
+        text-align: end;
         margin-left: 0;
-        line-height: 1.7;
+        line-height: 1.9;
         position: relative;
-        top: 40px;
-        right: 50px;
+        top: -90px;
     }
+
     .contact_title {
         font-size: 35px;
     }
